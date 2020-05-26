@@ -2,7 +2,7 @@
 
 const path    = require('path')
 const babel   = require('rollup-plugin-babel')
-const resolve = require('@rollup/plugin-node-resolve')
+const resolve = require('@rollup/plugin-node-resolve').default
 const banner  = require('./banner.js')
 const babelHelpers = require('./babel-helpers.js')
 
